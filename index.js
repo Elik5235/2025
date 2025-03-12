@@ -1,17 +1,13 @@
-
 let a = 3;
 let b = 6;
 let n = 8;
-if(b % 2 === 0){
-    n = n + 5
-}else{
-    a = 15
-}
-console.log(a,b,n);
 
-if(a % 2 === 0){
-    n = n - 8
-}else{
-   b = 122
+
+if (a * 5 === 14) {
+  b = b * n;
+} else if (b * n === 432) {
+  a = a + 15;
+} else {
+    b = b + 12
 }
-console.log(a,b,n);
+console.log(a, b, n);
