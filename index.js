@@ -1,13 +1,11 @@
-let a = 3;
-let b = 6;
-let n = 8;
-
-
-if (a * 5 === 14) {
-  b = b * n;
-} else if (b * n === 432) {
-  a = a + 15;
-} else {
-    b = b + 12
+const age = 9;
+const license = true;
+if(age >= 18 && license === true){
+    console.log('сідай за руль');
+}else if ( age < 18){
+    console.log('ви не можете, бо малий');
+}else if(license){
+   console.log('немає прав'); 
+}else{
+    console.log('помилка');
 }
-console.log(a, b, n);
