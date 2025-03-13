@@ -32,6 +32,32 @@ switch (monthNumber) {
     console.log("осінь");
     break;
   default: {
-    console.log('некоректне значення, введіть від 1 до 12');
+    console.log("некоректне значення, введіть від 1 до 12");
   }
 }
+
+const menu = Number(prompt('1 - сік 2 - чай 3 - вода 4 - кола 5 - кава'));
+switch (menu) {
+  case 1: {
+    console.log('сік');
+    break;
+  }
+  case 2: {
+    console.log('чай');
+    break;
+  }
+  case 3: {
+    console.log('вода');
+    break;
+  }
+  case 4: {
+    console.log('кола');
+    break;
+  }
+  case 5: { 
+    console.log('кава');
+    break;
+  }
+  default: console.log('обкріть щось з меню');
+}
+
