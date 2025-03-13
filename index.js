@@ -1,8 +1,3 @@
-function isFunctionPracticeGreeting(UserName) {
-  console.log('Привіт ,' + UserName);
-}
-
-isFunctionPracticeGreeting('Alex')
-isFunctionPracticeGreeting('Joel')
-isFunctionPracticeGreeting('Max')
-isFunctionPracticeGreeting('Tess')
+const age = 10;
+const isAdult = age > 18 ? true : false;
+console.log(isAdult);
