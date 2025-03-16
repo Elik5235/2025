@@ -1,30 +1,47 @@
-// function sum(a,b){
-//     return a + b;
-// }
-// let superFunction = sum;
-// console.log(sum(2,4))
+// console.log(1);
 
-function calculator(num1, num2, functionLink) {
-  let result = functionLink(num1, num2);
-  return result;
+//     let i = 0;
+//     while(i < 100){
+//         console.log(i);
+//         i++;
+//     }
+//     console.log(100);
+
+// while(true){
+// console.log('не вірно');
+//     break;
+// }
+
+// let i = 0;
+// while (i < 10) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+const password = "qwerty123";
+let userPassword = prompt("Введіть пароль");
+while (userPassword !== password) {
+  userPassword = prompt("Введіть вірний пароль");
 }
-console.log(calculator(5, 5, multy));
-// Функция для сложения
-function add(a, b) {
-  return a + b;
-}
-// Функция для вычитания
-function subtract(a, b) {
-  return a - b;
-}
-// Функция для умножения
-function multy(a, b) {
-  return a * b;
-}
-// Функция для деления
-function divide(a, b) {
-  if (b === 0) {
-    return "Ошибка: деление на ноль!";
+alert("Ласкаво просимо");
+
+// var 2
+while (true) {
+  const userPass = prompt("Введіть пароль");
+  if (userPass === correctPassword) {
+    break;
   }
-  return a / b;
 }
+
+//var 3
+let isPasswordCorrect = false;
+while (!isPasswordCorrect) {
+    const userPass = prompt("Введіть пароль");
+    if (userPass === correctPassword) {
+        isPasswordCorrect = true;
+    }
+}
+
+
