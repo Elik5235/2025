@@ -1,15 +1,19 @@
-// do(
-//     циклічний блок кода
-// )while(умова)
+// // for
+// for(let i = 0; i < 10; i++){
+//     console.log(i)
+// }
 
-const correctPass = "qwerty123";
-let userPass;
-do {
-  userPass = prompt("Введіть пароль");
-} while (userPass !== correctPass);
+// // while
+// let i = 0
+// while(i < 10){
+//     console.log(i)
+//     i++
+// }
 
-if (userPass === correctPass) {
-  alert("Ласкаво просимо");
-} else {
-  alert("Пароль невірний");
-}
+// // do while
+// let j = 0
+// do{
+//     console.log(j)
+//     j++
+// }while(j < 10)
+    
