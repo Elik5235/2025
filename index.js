@@ -1,15 +1,8 @@
-function factorial(num) {
-  let res = 1;
-
-  for (let it = 1; it <= num; it++) {
-    if (num === 0 || num === 1) {
-      return 1;
-    } else if (num < 0) {
-      return null;
-    } else {
-      res = res * it;
+function diap(a,b){
+    for(let i = a; i <= b; i++){
+        if(i % 5 === 0){
+        console.log(i)
+        }
     }
-  }
-  return res;
 }
-console.log(factorial(5));
+diap(10,50);
