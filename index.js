@@ -1,14 +1,30 @@
-function fizzBuzzGame(limit){
-    for (let i = 1; i <= limit; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            console.log('FizzBuzz');
-        } else if (i % 3 === 0) {
-            console.log('Fizz');
-        } else if (i % 5 === 0) {
-            console.log('Buzz');
-        } else {
-            console.log(i);
-        }
+// const bulb = {
+//   lightness: 200,
+//   power: "200w",
+//   cap: "small",
+//   on: function () {
+//     return "light on!";
+//   },
+//   off: function () {
+//     return "Light off!";
+//   },
+// };
+
+
+// const cat = {};
+// const cat2 = Object();
+// const cat3 = new Object();
+
+
+const cat ={
+    name:'cat',
+    color:'red',
+    breed: 'seam',
+    age:'2',
+    eat:function(){
+        return 'я куша.'
+    },
+    sleep:function(){
+        return 'я сплю'
     }
 }
-fizzBuzzGame(100)
