@@ -1,8 +1,11 @@
-function greetingUser(User){
-return `Hey ${user.name} ${user.surname}. you will be ${user.age + 1} next year`
-}
 const user = {
-    name: 'John',
-    surname:'Doe',
-    age:19
+  name: "John",
+  "favorite color": "red",
+  0: "value",
+};
+console.log(user.name);
+const someObj = {
+    2:10
 }
+console.log(someObj[2]);
+console.log(someObj['2']);
