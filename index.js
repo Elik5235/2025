@@ -1,9 +1,8 @@
-const name = 'Vasya'
-// alert(`Hello, ${name}!`)
-
-// alert(`Result ${1 + 1}`)
-//  !!! `` !!!
-
-const first = Number(prompt('first Num:'))
-const last = Number(prompt('last Num:'))
-alert(`${first + last}!`)
+function greetingUser(User){
+return `Hey ${user.name} ${user.surname}. you will be ${user.age + 1} next year`
+}
+const user = {
+    name: 'John',
+    surname:'Doe',
+    age:19
+}
