@@ -1,11 +1,9 @@
-const user = {
-  name: "John",
-  "favorite color": "red",
-  0: "value",
-};
-console.log(user.name);
-const someObj = {
-    2:10
+const greets = {
+    15:'HI',
+    17:'Whats up',
+    19:'Hello',
+    30:'aloha'
 }
-console.log(someObj[2]);
-console.log(someObj['2']);
+
+const valueFromUser = 19;
+console.log(greets[valueFromUser]);
