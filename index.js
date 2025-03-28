@@ -1,7 +1,11 @@
-const array = [2, 3, 4, 5, 1, 2];
-
-const newArray = array
-  .map((item) => {
-    return item * 2;
-  })
-  .reverse().join(',');
+const array = [2, 4, 7, 2, 1, 6, 8, 4, 6];
+array.sort();
+const lettersArray = [AAA, DDD, GGG];
+lettersArray.sort();
+function compareFunction(a, b) {
+  if (b > a) {
+     return -1;
+  }else {
+    return 1
+  }
+}
